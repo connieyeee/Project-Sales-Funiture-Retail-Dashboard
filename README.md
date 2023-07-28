@@ -22,11 +22,11 @@ The analysis encompasses crucial measures, including cost of goods sold, year-ov
 
 The dashboard is structured into three pages: Sales Summary, Product Detail, and Customer Detail.
 
-1. **Sales Summary Page**: Catering to the executive team, this page offers a comprehensive high-level overview of year-over-year sales and gross margin performance trends compared to the previous year. It segments data by product category, customer segment, time period, and region, while showcasing key performance indicators such as sales amount, gross margin, and cost.
+- **Sales Summary Page**: Catering to the executive team, this page offers a comprehensive high-level overview of year-over-year sales and gross margin performance trends compared to the previous year. It segments data by product category, customer segment, time period, and region, while showcasing key performance indicators such as sales amount, gross margin, and cost.
 
-2. **Product Detail Page**: Tailored to assist the sales and marketing teams, this page provides in-depth insights into individual product performance. It enables the refinement of operational strategies and facilitates the delivery of targeted marketing campaigns.
+- **Product Detail Page**: Tailored to assist the sales and marketing teams, this page provides in-depth insights into individual product performance. It enables the refinement of operational strategies and facilitates the delivery of targeted marketing campaigns.
 
-3. **Customer Detail Page**: Designed for the CRM and marketing campaign department, this page offers valuable insights into customer behaviors. Utilizing top N analysis, it identifies the most valuable customers and evaluates the contribution of each customer segment to the total sales amount.
+- **Customer Detail Page**: Designed for the CRM and marketing campaign department, this page offers valuable insights into customer behaviors. Utilizing top N analysis, it identifies the most valuable customers and evaluates the contribution of each customer segment to the total sales amount.
 
 ## 3. Dataset <a name="dataset"></a>
 
@@ -50,3 +50,5 @@ The dataset consists of a total of 9 tables, comprising 3 source data tables and
   
 - **Region**: Derived from the order table, this table contains comprehensive information about postal code, country, state, city, and region.
 
+## 4. Results <a name="results"></a>
+[Sales Analysis - Furniture.pdf](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/files/12196724/Sales.Analysis.-.Furniture.pdf)
