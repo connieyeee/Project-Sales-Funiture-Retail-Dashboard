@@ -32,21 +32,21 @@ The dashboard is structured into three pages: Sales Summary, Product Detail, and
 
 The dataset consists of a total of 9 tables, comprising 3 source data tables and 6 data mart tables.
 
-1. **Orders**: This fact table contains essential information such as customer code, order code, order date, postal code, last product update, and product code.
+- **Orders**: This fact table contains essential information such as customer code, order code, order date, postal code, last product update, and product code.
 
-2. **People**: Provides detailed information about individuals (customer names) and regions.
+- **People**: Provides detailed information about individuals (customer names) and regions.
 
-3. **Returns**: Contains data on order codes and indicates whether a product has been returned.
+- **Returns**: Contains data on order codes and indicates whether a product has been returned.
 
-4. **Calendar**: Includes a single record for each date used in the analysis.
+- **Calendar**: Includes a single record for each date used in the analysis.
 
-5. **Customer**: Derived from the order table, it includes customer details such as customer code, customer name, and segment.
+- **Customer**: Derived from the order table, it includes customer details such as customer code, customer name, and segment.
 
-6. **Date Type**: Specifies the type of date, either order date or ship date.
+- **Date Type**: Specifies the type of date, either order date or ship date.
 
-7. **Last Refresh**: This table updates and returns the latest refresh time each time the dashboard is refreshed.
+- **Last Refresh**: This table updates and returns the latest refresh time each time the dashboard is refreshed.
 
-8. **Product**: Derived from the order table with a predefined filter, it includes product details such as product code, category, sub-category, product name, and last product update.
-
-9. **Region**: Derived from the order table, this table contains comprehensive information about postal code, country, state, city, and region.
+- **Product**: Derived from the order table with a predefined filter, it includes product details such as product code, category, sub-category, product name, and last product update.
+  
+- **Region**: Derived from the order table, this table contains comprehensive information about postal code, country, state, city, and region.
 
