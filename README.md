@@ -6,11 +6,12 @@ The data, content, and final delivery I shared on GitHub utilize mock-up data du
 1. [Introduction](#introduction)
 2. [Specifications](#specifications)
 3. [Dataset](#dataset)
-4. [Results](#results)
+4. [Data Model](#data-model)
+5. [Results](#results)
     - [Proof of Concept Dashboard Design](#proof-of-concept-dashboard-design)
     - [Technical Challenges](#technical-challenges)
     - [Business Insights](#business-insights)
-5. [Lessons Learned](#lesson-learned)
+6. [Lessons Learned](#lesson-learned)
 
 ---
 
@@ -42,7 +43,10 @@ The dataset consists of a total of 9 tables, comprising 3 source data tables and
 - **Customer**: Derived from the order table, it includes customer details such as customer code, customer name, and segment.
 - **People**: Provides detailed information about individuals (customer names) and regions.
 
-## 4. Results <a name="results"></a>
+## 4. Data Model <a name="data-model"></a>
+![屏幕截图 2023-07-28 173213](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/assets/134975561/00345b6d-db02-4f3f-ae6f-92cf428ea6eb)
+
+## 5. Results <a name="results"></a>
 #### Proof of Concept Dashboard Design:<a name="proof-of-concept-dashboard-design"></a>
 ![屏幕截图 2023-07-28 131654](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/assets/134975561/cf291ff3-01bc-439c-8c22-19f7bebbf0e1)
 ![屏幕截图 2023-07-28 131714](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/assets/134975561/b84db8cc-5cad-4b20-8d3b-fb3adb2a9171)
@@ -62,7 +66,7 @@ The dataset consists of a total of 9 tables, comprising 3 source data tables and
 - **Targeted Campaigns**: Utilizing the Gross Margin Rate alongside customers' shopping habits allows the CRM team to plan highly effective targeted campaigns, focusing on promoting high-margin products to the most relevant customer segments.
 - **Return Rate as a KPI**: Monitoring the Return Rate continues to serve as a valuable key performance indicator for the product team, guiding them in formulating product plans that minimize returns and maximize overall profitability.
   
-## 5. Lesson Learned <a name="lesson-learned"></a>
+## 6. Lesson Learned <a name="lesson-learned"></a>
 - **Flexibility with Parameterized Variables**: Implementing parameterized environmental variables enhanced flexibility and adaptability for future deployments. This approach allowed seamless transitions between different environments, improving the project's scalability.
 
 - **Data Refresh and Up-to-Date Analysis**: Utilizing M code for data refresh ensured that the analysis was based on the most current data. Keeping data up-to-date is essential for accurate and informed decision-making. The ability to automatically refresh data reduced manual efforts and enhanced data accuracy.
