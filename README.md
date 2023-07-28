@@ -33,22 +33,14 @@ The dashboard is structured into three pages: Sales Summary, Product Detail, and
 The dataset consists of a total of 9 tables, comprising 3 source data tables and 6 data mart tables.
 
 - **Orders**: This fact table contains essential information such as customer code, order code, order date, postal code, last product update, and product code.
-
-- **People**: Provides detailed information about individuals (customer names) and regions.
-
 - **Returns**: Contains data on order codes and indicates whether a product has been returned.
-
 - **Calendar**: Includes a single record for each date used in the analysis.
-
-- **Customer**: Derived from the order table, it includes customer details such as customer code, customer name, and segment.
-
 - **Date Type**: Specifies the type of date, either order date or ship date.
-
 - **Last Refresh**: This table updates and returns the latest refresh time each time the dashboard is refreshed.
-
 - **Product**: Derived from the order table with a predefined filter, it includes product details such as product code, category, sub-category, product name, and last product update.
-  
 - **Region**: Derived from the order table, this table contains comprehensive information about postal code, country, state, city, and region.
+- **Customer**: Derived from the order table, it includes customer details such as customer code, customer name, and segment.
+- **People**: Provides detailed information about individuals (customer names) and regions.
 
 ## 4. Results <a name="results"></a>
 #### Proof of Concept Dashboard Design:<a name="proof-of-concept-dashboard-design"></a>
@@ -59,12 +51,28 @@ The dataset consists of a total of 9 tables, comprising 3 source data tables and
 
 #### Technical Challenges:<a name="technical-challenges"></a>
 - **Parameterized Environmental Variables**: Implementing parameterized environmental variables enhances flexibility and adaptability for future deployments.
-  
 - **M Code to Import Source Data**: Leveraging M code to import source data contributes to data extraction efficiency and accuracy.
-  
 - **M Code for Data Refresh**: Utilizing M code ensures the incorporation of the latest refresh time, providing up-to-date data for analysis and reporting.
 - **Custom Functions**: Developed custom functions for diverse purposes, enabling streamlined and efficient processes.
 
 #### Business Insights:<a name="business-insights"></a>
-
+- **Gross Margin Rate**: The Gross Margin Rate metric is of paramount importance, as it provides valuable insights into the profitability of individual products. By analyzing the gross margin rate, the management can identify high-margin products that significantly contribute to the overall profitability.
+- **Rolling 4-Month Trend**: Analyzing the rolling 4-month trend in furniture sales can reveal short-term fluctuations and seasonality. Understanding these trends allows for better inventory management and timely response to market dynamics.
+- **Year-over-Year Trends**: Examining year-over-year furniture sales trends helps identify growth patterns and performance compared to previous years. It provides valuable context for evaluating business success and setting performance benchmarks.
+- **Targeted Campaigns**: Utilizing the Gross Margin Rate alongside customers' shopping habits allows the CRM team to plan highly effective targeted campaigns, focusing on promoting high-margin products to the most relevant customer segments.
+- **Return Rate as a KPI**: Monitoring the Return Rate continues to serve as a valuable key performance indicator for the product team, guiding them in formulating product plans that minimize returns and maximize overall profitability.
+  
 ## 5. Lesson Learned <a name="lesson-learned"></a>
+- **Flexibility with Parameterized Variables**: Implementing parameterized environmental variables enhanced flexibility and adaptability for future deployments. This approach allowed seamless transitions between different environments, improving the project's scalability.
+
+- **Data Refresh and Up-to-Date Analysis**: Utilizing M code for data refresh ensured that the analysis was based on the most current data. Keeping data up-to-date is essential for accurate and informed decision-making. The ability to automatically refresh data reduced manual efforts and enhanced data accuracy.
+
+- **Gross Margin Rate for Profitability Analysis**: The Gross Margin Rate emerged as a vital metric for understanding individual product profitability. Analyzing this rate helped identify high-margin products contributing significantly to overall profitability. By focusing on these high-margin products, the project contributed to maximizing revenue.
+
+- **Short-Term and Long-Term Trend Analysis**: Analyzing both rolling 4-month trends and year-over-year trends provided valuable insights. Short-term trends helped optimize inventory management, while long-term trends allowed for setting performance benchmarks. This dual approach enhanced the project's ability to respond to both immediate and long-term market dynamics.
+
+- **Return Rate as a Performance Indicator**: Monitoring the Return Rate served as a valuable key performance indicator for the product team. Understanding return rates helped in formulating product plans to minimize returns and maximize profitability. By addressing the reasons behind returns, the project contributed to improving product quality and customer satisfaction.
+
+
+
+
