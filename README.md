@@ -58,5 +58,13 @@ The dataset consists of a total of 9 tables, comprising 3 source data tables and
 ![屏幕截图 2023-07-28 131757](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/assets/134975561/f0a8b2ba-bdc2-4196-b337-6ab0ff6875ba)
 
 #### Technical Challenges:<a name="technical-challenges"></a>
+- **Parameterized Environmental Variables**: Implementing parameterized environmental variables enhances flexibility and adaptability for future deployments.
+  
+- **M Code to Import Source Data**: Leveraging M code to import source data contributes to data extraction efficiency and accuracy.
+  
+- **M Code for Data Refresh**: Utilizing M code ensures the incorporation of the latest refresh time, providing up-to-date data for analysis and reporting.
+- **Custom Functions**: Developed custom functions for diverse purposes, enabling streamlined and efficient processes.
 
 #### Business Insights:<a name="business-insights"></a>
+
+## 5. Lesson Learned <a name="lesson-learned"></a>
