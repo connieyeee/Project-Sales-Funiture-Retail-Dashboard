@@ -28,3 +28,25 @@ The dashboard is structured into three pages: Sales Summary, Product Detail, and
 
 3. **Customer Detail Page**: Designed for the CRM and marketing campaign department, this page offers valuable insights into customer behaviors. Utilizing top N analysis, it identifies the most valuable customers and evaluates the contribution of each customer segment to the total sales amount.
 
+## 3. Dataset <a name="dataset"></a>
+
+The dataset consists of a total of 9 tables, comprising 3 source data tables and 6 data mart tables.
+
+1. **Orders**: This fact table contains essential information such as customer code, order code, order date, postal code, last product update, and product code.
+
+2. **People**: Provides detailed information about individuals (customer names) and regions.
+
+3. **Returns**: Contains data on order codes and indicates whether a product has been returned.
+
+4. **Calendar**: Includes a single record for each date used in the analysis.
+
+5. **Customer**: Derived from the order table, it includes customer details such as customer code, customer name, and segment.
+
+6. **Date Type**: Specifies the type of date, either order date or ship date.
+
+7. **Last Refresh**: This table updates and returns the latest refresh time each time the dashboard is refreshed.
+
+8. **Product**: Derived from the order table with a predefined filter, it includes product details such as product code, category, sub-category, product name, and last product update.
+
+9. **Region**: Derived from the order table, this table contains comprehensive information about postal code, country, state, city, and region.
+
