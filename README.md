@@ -18,3 +18,13 @@ The data, content, and final delivery I shared on GitHub utilize mock-up data du
 The primary objective of this dashboard is to rigorously model, measure, analyze, and continually monitor the sales performance within the furniture department store. By harnessing the insights extracted from the accessible Orders, People, and Returns datasets, the dashboard facilitates a comprehensive understanding of sales and orders. Through the implementation of predefined dimensions and key performance indicators, it generates three distinctive analyses: sales summary, product detail, and customer detail. These analyses are thoughtfully designed to address the specific information requirements of diverse stakeholders, empowering them with actionable insights to drive data-informed decisions and optimize the furniture department store's performance.
 
 ## 2. Specifications <a name="specifications"></a>
+The analysis encompasses crucial measures, including cost of goods sold, year-over-year sales growth by order date, sales amount discounted, consumer sales, amount returned, rolling 4-month sales by order date, last data model refresh, and total sales by both month ordered and month shipped.
+
+The dashboard is structured into three pages: Sales Summary, Product Detail, and Customer Detail.
+
+1. **Sales Summary Page**: Catering to the executive team, this page offers a comprehensive high-level overview of year-over-year sales and gross margin performance trends compared to the previous year. It segments data by product category, customer segment, time period, and region, while showcasing key performance indicators such as sales amount, gross margin, and cost.
+
+2. **Product Detail Page**: Tailored to assist the sales and marketing teams, this page provides in-depth insights into individual product performance. It enables the refinement of operational strategies and facilitates the delivery of targeted marketing campaigns.
+
+3. **Customer Detail Page**: Designed for the CRM and marketing campaign department, this page offers valuable insights into customer behaviors. Utilizing top N analysis, it identifies the most valuable customers and evaluates the contribution of each customer segment to the total sales amount.
+
