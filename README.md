@@ -8,8 +8,8 @@ The data, content, and final delivery I shared on GitHub utilize mock-up data du
 3. [Dataset](#dataset)
 4. [Results](#results)
     - [Proof of Concept Dashboard Design](#proof-of-concept-dashboard-design)
-    - [Technical Challenges - Highlights](#technical-challenges-highlights)
-    - [Business Insights - Recommendations](#business-insights-recommendations)
+    - [Technical Challenges](#technical-challenges)
+    - [Business Insights](#business-insights)
 5. [Lessons Learned](#lesson-learned)
 
 ---
@@ -51,8 +51,12 @@ The dataset consists of a total of 9 tables, comprising 3 source data tables and
 - **Region**: Derived from the order table, this table contains comprehensive information about postal code, country, state, city, and region.
 
 ## 4. Results <a name="results"></a>
+#### Proof of Concept Dashboard Design:<a name="proof-of-concept-dashboard-design"></a>
 ![屏幕截图 2023-07-28 131654](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/assets/134975561/cf291ff3-01bc-439c-8c22-19f7bebbf0e1)
 ![屏幕截图 2023-07-28 131714](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/assets/134975561/b84db8cc-5cad-4b20-8d3b-fb3adb2a9171)
 ![屏幕截图 2023-07-28 131740](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/assets/134975561/229241ef-25f7-444a-8177-17fdc2344410)
 ![屏幕截图 2023-07-28 131757](https://github.com/connieyeee/Project-Sales-Funiture-Retail-Dashboard/assets/134975561/f0a8b2ba-bdc2-4196-b337-6ab0ff6875ba)
 
+#### Technical Challenges:<a name="technical-challenges"></a>
+
+#### Business Insights:<a name="business-insights"></a>
